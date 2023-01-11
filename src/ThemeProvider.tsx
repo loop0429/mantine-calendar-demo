@@ -1,4 +1,4 @@
-import { MantineProvider, MantineThemeOverride } from "@mantine/core";
+import { MantineProvider } from "@mantine/core";
 
 interface ThemeProviderProps {
   children: React.ReactNode;
