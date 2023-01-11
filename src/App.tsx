@@ -12,7 +12,7 @@ export default function App() {
       <Stack align="center" mt={50}>
         <Calendar
           dayStyle={(date, modifiers) => {
-            // 土曜日以外、outiside（表示月以外の日付）であれば早期リターン
+            // 土曜日以外、outside（表示月以外の日付）であれば早期リターン
             // 戻り値の型がReact.CSSPropertiesなので{}で返す
             if (date.getDay() !== 6 || modifiers.outside === true) {
               return {}
