@@ -23,7 +23,7 @@ export default function App() {
             return { color }
           }}
           firstDayOfWeek="sunday"
-          labelFormat="YYYY年MM月"
+          labelFormat="YYYY年MMM"
           weekendDays={[0]}
           locale="ja"
           value={value}
