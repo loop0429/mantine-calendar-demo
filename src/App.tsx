@@ -24,6 +24,7 @@ export default function App() {
           }}
           firstDayOfWeek="sunday"
           labelFormat="YYYY年MM月"
+          weekendDays={[0]}
           locale="ja"
           value={value}
           onChange={setValue}
